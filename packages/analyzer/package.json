@@ -1,0 +1,13 @@
+{
+  "name": "@meteor-lift/analyzer",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Static analyzer for Meteor/Blaze codebases.",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  }
+}
